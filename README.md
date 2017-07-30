@@ -12,5 +12,12 @@
 - **Android 4.0.3 及以上:**
   + [直接下载](https://github.com/yinghuocho/download/blob/master/firefly.apk?raw=true) | [Google Play](https://play.google.com/store/apps/details?id=org.gofirefly.android.vpn)
 
-### Credit
+### lantern 
 - [**lantern**](https://github.com/getlantern/lantern)
+
+------------
+
+
+by chenhonzho
+
+-------------
