@@ -1,8 +1,7 @@
-## Firefly 萤火虫
 
-### 下载 
+## Download  
 - **Windows:**            
-  + [安装版](https://github.com/yinghuocho/download/blob/master/firefly_windows_386_install.exe?raw=true) | [单文件版](https://github.com/yinghuocho/download/blob/master/firefly_windows_386.exe?raw=true) 
+  + [安装版](https://github.com/yinghuocho/download/blob/master/firefly_windows_386_install.exe?raw=true) | [单文件版](https://github.com/yinghuocho/download/blob/master/firefly_windows_386.exe?raw=true)
 - **OSX:**                
   + [安装版](https://github.com/yinghuocho/download/blob/master/firefly_darwin_amd64_install.dmg?raw=true) | [单文件版](https://github.com/yinghuocho/download/blob/master/firefly_darwin_amd64?raw=true)
 - **Ubuntu 64位:**  
@@ -12,12 +11,6 @@
 - **Android 4.0.3 及以上:**
   + [直接下载](https://github.com/yinghuocho/download/blob/master/firefly.apk?raw=true) | [Google Play](https://play.google.com/store/apps/details?id=org.gofirefly.android.vpn)
 
-### lantern 
+
+## lantern
 - [**lantern**](https://github.com/getlantern/lantern)
-
-------------
-
-
-by chenhonzho
-
--------------

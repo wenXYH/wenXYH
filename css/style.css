@@ -1,4 +1,5 @@
 body {
+  background: rgb(46, 166, 182);
   background-image: linear-gradient(-90deg, #8F25DA, #25DACB);
   overflow: hidden;
   font: Arial, 12px/1.5em;
@@ -16,57 +17,6 @@ html,
 body{
   width: 100%;
   height: 100%:
-}
-
-#bg{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  -webkit-animation: bg ease-in 20s  infinite;
-  -o-animation:      bg ease-in 20s  infinite;
-  animation:         bg ease-in 20s  infinite;
-  opacity: .7;
-  transition: all 2s;
-}
-@keyframes bg {
-  0%{background-image: linear-gradient(-90deg, #616BFF, #61FF8B);}
-  3%{background-image: linear-gradient(-90deg, #5C77FF, #5CFF77);}
-  6%{background-image: linear-gradient(-90deg, #5C6FFF, #5CFF7F);}
-  10%{background-image: linear-gradient(-90deg, #5C5CFF, #5CFF92);}
-  13%{background-image: linear-gradient(-90deg, #5C5CFF, #5CFF92);}
-  16%{background-image: linear-gradient(-90deg, #645CFF, #5CFF9A);}
-  19%{background-image: linear-gradient(-90deg, #6C5CFF, #5CFFA3);}
-  22%{background-image: linear-gradient(-90deg, #745CFF, #5CFFAB);}
-  25%{background-image: linear-gradient(-90deg, #8F5CFF, #5CFFC6);}
-  29%{background-image: linear-gradient(-90deg, #855CFF, #5CFFBB);}
-  32%{background-image: linear-gradient(-90deg, #985CFF, #5CFFCE);}
-  35%{background-image: linear-gradient(-90deg, #A05CFF, #5CFFD6);}
-  38%{background-image: linear-gradient(-90deg, #A05CFF, #5CFFD6);}
-  41%{background-image: linear-gradient(-90deg, #BB5CFF, #5CFFF1);}
-  45%{background-image: linear-gradient(-90deg, #B05CFF, #5CFFE7);}
-  48%{background-image: linear-gradient(-90deg, #BB5CFF, #5CFFF1);}
-  51%{background-image: linear-gradient(-90deg, #D35CFF, #5CF4FF);}
-  54%{background-image: linear-gradient(-90deg, #CB5CFF, #5CFCFF);}
-  57%{background-image: linear-gradient(-90deg, #D35CFF, #5CF4FF);}
-  61%{background-image: linear-gradient(-90deg, #DC5CFF, #5CECFF);}
-  64%{background-image: linear-gradient(-90deg, #E75CFF, #5CE1FF);}
-  67%{background-image: linear-gradient(-90deg, #E75CFF, #5CE1FF);}
-  70%{background-image: linear-gradient(-90deg, #FF5CFF, #5CC9FF);}
-  72%{background-image: linear-gradient(-90deg, #FF5CF4, #5CBEFF);}
-  74%{background-image: linear-gradient(-90deg, #FF5CF4, #5CBEFF);}
-  77%{background-image: linear-gradient(-90deg, #FF5CF4, #5CBEFF);}
-  79%{background-image: linear-gradient(-90deg, #FF5CDE, #5CA8FF);}
-  82%{background-image: linear-gradient(-90deg, #FF5CD9, #5CA3FF);}
-  84%{background-image: linear-gradient(-90deg, #FF5CDE, #5CA8FF);}
-  87%{background-image: linear-gradient(-90deg, #FF5CCB, #5C95FF);}
-  89%{background-image: linear-gradient(-90deg, #FF5CD1, #5C9AFF);}
-  92%{background-image: linear-gradient(-90deg, #FF5CCB, #5C95FF);}
-  94%{background-image: linear-gradient(-90deg, #FF5CB6, #5C7FFF);}
-  97%{background-image: linear-gradient(-90deg, #FF5CB6, #5C7FFF);}
-  100%{background-image: linear-gradient(-90deg, #DC5CFF, #5CECFF);}
 }
 #con{
   width: 75%;
@@ -91,19 +41,21 @@ body{
 }
 #con a{
   display: inline-block;
-  padding: 0 35px;
+  padding: 0 50px;
   height: 35px;
   line-height: 35px;
   margin: 10px;
-  background: #333;
-  border-radius: 3px;
-  box-shadow: 1px 1px 10px #333;
+  background: #535252;
+  color: #e2dddd;
+  border:1px solid #535252;
+  border-radius: 15px;
 }
 #con a:Hover{
+  color: #fff;
+  border: 1px solid #000;
   background: #000;
-  transform: scale(1.1,1.1);
   box-shadow: 2px 2px 30px #333;
-  transition: all 200ms;
+  transition: all .5s;
 }
 #by{
   position: fixed;

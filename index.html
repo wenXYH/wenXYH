@@ -6,14 +6,14 @@
   <title>Firefly</title>
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="favicon.ico">
-  <style type="css/text"></style>
+  <link rel="icon" href="http://github.com/favicon.ico">
+
 </head>
 <body>
   <div id="bg"></div>
   <div id="con">
     <p class="title">全平台翻墙,感谢原作者</p>
-    <p class="tips">通过修改host文件翻墙</p>
+    <p class="tips">可翻大部分外国网站</p>
     <p class="list">
       <a href="https://github.com/yinghuocho/download/blob/master/firefly_windows_386_install.exe?raw=true" target="_blank" title="就是最常用的操作系统啊,管他啊,先下载了再说">Windwos</a>
       <a href="https://github.com/yinghuocho/download/blob/master/firefly_linux_amd64_install.deb?raw=true" target="_blank" title="基本linux通用吧,是Ubuntu64位的">Linux</a>
@@ -30,4 +30,15 @@
     </a>
   </div>
 </body>
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.gradientify.js"></script>
+  <script type="text/javascript">
+      //渐变,下面数值为RGB
+      $('body').gradientify({
+          gradients: [
+              { start: [12, 235, 235], stop: [41, 255, 198] },
+              { start: [81, 159, 61], stop: [19, 190, 108] }
+          ]
+        });
+  </script>
 </html>
