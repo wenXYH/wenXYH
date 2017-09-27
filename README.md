@@ -1,3 +1,7 @@
+## About
+由于中国墙,所以要上外国网站必须翻墙,不过国内可用的翻墙软件太少.
+萤火虫是算比较好的了,推荐大家安装,不用像修改`hosts`文件一样麻烦,都是小白式的,表示一开始弄了个`page`,不过域名暂时不弄了,所以就直在这里下载.感谢原作者提供软件.
+
 
 ## Download  
 - **Windows:**            
@@ -9,8 +13,4 @@
 - **Ubuntu 32位:**
   + [安装版](https://github.com/yinghuocho/download/blob/master/firefly_linux_386_install.deb?raw=true) | [单文件版](https://github.com/yinghuocho/download/blob/master/firefly_linux_386?raw=true)
 - **Android 4.0.3 及以上:**
-  + [直接下载](https://github.com/yinghuocho/download/blob/master/firefly.apk?raw=true) | [Google Play](https://play.google.com/store/apps/details?id=org.gofirefly.android.vpn)
-
-
-## lantern
-- [**lantern**](https://github.com/getlantern/lantern)
+  + [安装板](https://github.com/yinghuocho/download/blob/master/firefly.apk?raw=true)
