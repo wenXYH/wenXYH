@@ -13,4 +13,4 @@
 - **Ubuntu 32位:**
   + [安装版](https://github.com/yinghuocho/download/blob/master/firefly_linux_386_install.deb?raw=true) | [单文件版](https://github.com/yinghuocho/download/blob/master/firefly_linux_386?raw=true)
 - **Android 4.0.3 及以上:**
-  + [安装板](https://github.com/yinghuocho/download/blob/master/firefly.apk?raw=true)
+  + [安装版](https://github.com/yinghuocho/download/blob/master/firefly.apk?raw=true)
