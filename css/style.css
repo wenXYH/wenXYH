@@ -1,8 +1,8 @@
 body {
-  background: rgb(46, 166, 182);
-  background-image: linear-gradient(-90deg, #8F25DA, #25DACB);
+  background-color: #159957;
+  background-image: linear-gradient(120deg, #155799, #159957);
   overflow: hidden;
-  font: Arial, 12px/1.5em;
+  font: "微软雅黑", 12px/1.5em;
   color: #fff;
 }
 
@@ -16,7 +16,7 @@ a:hover{
 html,
 body{
   width: 100%;
-  height: 100%:
+  height: 100%;
 }
 #con{
   width: 75%;
@@ -32,12 +32,19 @@ body{
   0%{opacity: 0;color: rgb(53, 221, 232);}
 }
 #con p.list{
-  margin-top: 7em;
+  margin-top: 3em;
   animation: title ease-in 1s 1;
 }
 #con p.tips{
   margin-top: 15px;
+  cursor: pointer;
   animation: title ease-in 2s 1;
+}
+#con p.tips:after{
+  content: "<<";
+}
+#con p.tips::before{
+  content: ">>";
 }
 #con a{
   display: inline-block;
@@ -45,16 +52,15 @@ body{
   height: 35px;
   line-height: 35px;
   margin: 10px;
-  background: #535252;
+  background: rgba(255,255,255,.1);
   color: #e2dddd;
-  border:1px solid #535252;
+  border:1px solid rgba(255,255,255,.3);
   border-radius: 15px;
 }
 #con a:Hover{
   color: #fff;
-  border: 1px solid #000;
-  background: #000;
-  box-shadow: 2px 2px 30px #333;
+  border:1px solid rgba(255,255,255,.3);
+  background: rgba(255,255,255,.3);
   transition: all .5s;
 }
 #by{
@@ -63,28 +69,20 @@ body{
   width: 100%;
   text-align: center;
 }
-#by p{
-  cursor: pointer;
-  display: inline-block;
-  animation: title ease-in 2s 1;
-  color: rgba(255, 255, 255, 0.45);
-  font-size: 14px;
-}
-#by p:hover{
-  color: #fff;
-  transition: all 2s;
-}
 #fork{
   position: fixed;
   top: 0;
   right: 0;
 }
 #fork img{
-  width: 120px;
-  height: 120px;
-  opacity: .7;
+  width: 100px;
+  height: 100px;
+  opacity: .8;
+   filter: blur(5px);
   cursor: pointer;
+  transition: all .3s ease-in;
 }
 #fork img:hover{
+  filter: blur(0);
   opacity: 1;
 }
